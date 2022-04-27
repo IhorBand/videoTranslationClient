@@ -30,7 +30,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '**/video-translation-client/build'
+    SourceFolder: 'video-translation-client/build'
     Contents: '**'
     OverWrite: true
     TargetFolder: '/usr/share/videoTranslateClientApp'
