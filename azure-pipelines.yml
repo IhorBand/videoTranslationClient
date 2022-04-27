@@ -19,3 +19,20 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '/usr/share/videoTranslateClientApp'
+    Contents: '**'
+    OverWrite: true
+    TargetFolder: '/usr/share/backup_videoTranslateClientApp'
+  displayName: 'make a backup'
+
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '**/video-translation-client/build'
+    Contents: '**'
+    OverWrite: true
+    TargetFolder: '/usr/share/videoTranslateClientApp'
+  displayName: 'copy build into PROD directory'
+
