@@ -16,14 +16,17 @@ function App() {
           Ihor: Цей Проект реалізовувався ще за каденції Петра Порошенка.
         </div>
         <div>
-          Andrew: Yaruhayu
+          Andrew: Naruto best anime in the world
         </div>
         <div>
           Dima: Порошенко ne наш Президент.
         </div>
+        <div>
+          Endrew is joker and kiska lover
+          </div>
         <a
           className="App-link"
-          href="https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%94%D0%B6%D0%BE%D0%BD%D1%81%D0%BE%D0%BD"
+          href="https://naruto.fandom.com/wiki/Naruto_Uzumaki"
           target="_blank"
           rel="noopener noreferrer"
         >
