@@ -1,2 +1,2 @@
-const BASE_URL = "http://videotranslate.lol:5005/";
+const BASE_URL = "https://videotranslate.lol/api/";
 export default BASE_URL;
