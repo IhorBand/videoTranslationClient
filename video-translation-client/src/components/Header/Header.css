@@ -1,0 +1,20 @@
+.accountMenu {
+	padding: 18px 100px;
+	height: 56px;
+	border-radius: 0;
+	color: inherit;
+	float: left;
+	background-color: transparent;
+	position: relative;
+	overflow: hidden;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+}
+span {
+	margin-left: 10px;
+}
+.appName {
+	font-size: large;
+}

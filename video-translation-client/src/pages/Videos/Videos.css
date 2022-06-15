@@ -1,0 +1,16 @@
+.video-container {
+    margin-right:20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.video-image-container {
+    max-width: 500px;
+}
+
+.video-list-container {
+    display: flex;
+}
