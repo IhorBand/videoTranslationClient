@@ -15,10 +15,10 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    cd video-translation-client &&
-    rm -rf node_modules &&
-    npm install &&
-    npm run build &&
+    cd video-translation-client
+    rm -rf node_modules
+    npm install
+    npm run build
   displayName: 'npm install and build'
 
 - task: CopyFiles@2
